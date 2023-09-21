@@ -8,6 +8,12 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <distributionManagement>
+<repository>
+<id>DevOps</id> <!-- This should match the server ID in your settings.xml -->
+<url>https://pkgs.dev.azure.com/Usmanasim11/217c2f39-7b2a-4634-824e-0d132a773c0f/_packaging/DevOps/maven/v1</url>
+</repository>
+</distributionManagement>     
     <groupId>com.post.meridiem</groupId>
     <artifactId>spring-boot-jacoco</artifactId>
     <version>0.0.1-SNAPSHOT</version>
